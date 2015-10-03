@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 
-namespace SimpleJsonFileDbContext
+namespace SimpleJsonFileDb
 {
     /// <summary>
     /// Represents a json file, that contains an array of T returned as a list.

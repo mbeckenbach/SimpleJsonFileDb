@@ -1,4 +1,4 @@
-﻿namespace SimpleJsonFileDbContext
+﻿namespace SimpleJsonFileDb
 {
     public abstract class SimpleDbContext
     {

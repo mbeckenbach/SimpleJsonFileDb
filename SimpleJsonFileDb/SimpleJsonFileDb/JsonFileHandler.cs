@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 
-namespace SimpleJsonFileDbContext
+namespace SimpleJsonFileDb
 {
     /// <summary>
     /// Handles system IO and cache operations for each json file

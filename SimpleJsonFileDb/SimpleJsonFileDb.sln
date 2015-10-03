@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{9D320471-7
 		..\README.md = ..\README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleJsonFileDbTests", "SimpleJsonFileDbTests\SimpleJsonFileDbTests.csproj", "{865B2EAF-A9B6-4383-B97D-4CE5F7D441A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,10 @@ Global
 		{12E3B8F2-908A-4FC5-8388-A82D52222160}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12E3B8F2-908A-4FC5-8388-A82D52222160}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12E3B8F2-908A-4FC5-8388-A82D52222160}.Release|Any CPU.Build.0 = Release|Any CPU
+		{865B2EAF-A9B6-4383-B97D-4CE5F7D441A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{865B2EAF-A9B6-4383-B97D-4CE5F7D441A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{865B2EAF-A9B6-4383-B97D-4CE5F7D441A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{865B2EAF-A9B6-4383-B97D-4CE5F7D441A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
