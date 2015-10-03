@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>SimpleJsonFileDb</id>
+    <version>1.0.0.1</version>
+    <title>SimpleJsonFileDb</title>
+    <authors>Max Beckenbach</authors>
+    <description>A simple file based JSON database.</description>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <developmentDependency>false</developmentDependency>
+    <copyright>Copyright ©  2015</copyright>
+    <frameworkAssemblies />
+    <dependencies>
+      <group>
+        <dependency id="Newtonsoft.Json" version="7.0.1" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\maxbe\Source\GitHub\SimpleJsonFileDb\SimpleJsonFileDb\SimpleJsonFileDb\bin\Debug\SimpleJsonFileDb.dll" target="lib\net46" />
+  </files>
+</package>
