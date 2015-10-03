@@ -77,6 +77,12 @@ var data = db.SomeTestData.FirstOrDefault(x => x.MyTest == "Foo");
 // Delete some data
 db.SomeTestData.Remove(data);
 
-// Use most of your favorite IList<T> methods :-)
+// IMPORTANT: Note that this will not be saved to the file system! 
+// Changing the properties will only work as long as the application cache exists.
+data.MyTest = "FooBar";
+
+// To save updates to disk call SaveChanges for each JSON file that has pending changes.
+// Note, that there is no SaveChanges for db. You have to know what you changed.
+db.SomeTestData.SaveChanges();
 
 ```

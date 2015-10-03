@@ -62,6 +62,20 @@ namespace SimpleJsonFileDbContext.Tests
             Assert.AreNotEqual(null, data);
         }
 
+        [TestMethod]
+        public void ShouldUpdatenData()
+        {
+            var db = new TestDbContext();
+
+            var data = db.SomeTestData.FirstOrDefault(x => x.MyTest == "Foo");
+            data.MyTest = "FooBar";
+            db.SomeTestData.SaveChanges();
+
+            var changed = db.SomeTestData.FirstOrDefault(x => x.MyTest == "FooBar");
+
+            Assert.AreEqual("FooBar", changed.MyTest);
+        }
+
         [ClassInitialize]
         public static void Initialize(TestContext ctx)
         {

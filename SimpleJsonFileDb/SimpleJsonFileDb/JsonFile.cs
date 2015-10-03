@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace SimpleJsonFileDb
 {
@@ -37,6 +38,14 @@ namespace SimpleJsonFileDb
         #endregion
 
         #region Implementation of ICollection<T>
+
+        public void SaveChanges()
+        {
+            //var listBackup = _list.ToList();
+            //_list.Clear();
+            //listBackup.ForEach(x => _list.Add(x));
+            _dataFile.SaveChanges();
+        }
 
         public void Add(T item)
         {
@@ -106,6 +115,5 @@ namespace SimpleJsonFileDb
         }
 
         #endregion
-
     }
 }
