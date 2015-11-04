@@ -6,8 +6,6 @@ After every add, remove or update the cache will be renewed.
 
 ## Installation
 Add my myGet feed to Visual Studio. 
-You can browse it 
-
 
 For VS 2015+:
 ```
